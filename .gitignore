@@ -1,0 +1,36 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter & Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets and Large Binary Files (keep data local, not on git)
+data/
+raw_data/
+*.zip
+*.tar.gz
+*.h5
+*.keras
+
+# Model weights & Checkpoints (large neural net weights ignored, lightweight joblib kept)
+models/*.pkl
+models/*.pt
+models/*.pth
+*.npy
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
